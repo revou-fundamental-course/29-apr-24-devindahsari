@@ -176,3 +176,9 @@ footer > .link a {
 footer > .link a:hover {
     color: white;
 }
+
+@media only screen and (max-width:400px){
+    .slide-contact{
+        flex-direction: column;
+    }
+}
