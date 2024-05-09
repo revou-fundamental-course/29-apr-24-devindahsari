@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #FFA33E;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: white;
+}
+
+header{
+    background-image: url(../img/bg1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text {
+    font-size: 20px;
+    color: white;
+    padding:60px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+main{
+    overflow: auto;
+}
