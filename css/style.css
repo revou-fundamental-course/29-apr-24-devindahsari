@@ -53,7 +53,7 @@ main{
 
 .slide-contact {
     display: flex;
-    background-color: #B1D056;
+    background-color: #E0FF59;
 }
 .slide {
     flex:2;
@@ -83,4 +83,45 @@ form > select {
     height: 40px;
     width: 95%;
     padding: 10px;
+}
+
+#OurPackage{
+    height: 150px;
+    background-color: #B1D056;
+    color: white;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+.Package-items > .box {
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+
+.Package-items > .box > .box-image {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    align-content: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.argument{
+    background-color: #E0FF59;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+.argument > button {
+    background-color: #FFA33E;
+    color: white;
+    height: 40px;
+    width: 300px;
 }
