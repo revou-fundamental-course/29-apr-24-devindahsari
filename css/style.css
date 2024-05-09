@@ -125,3 +125,19 @@ form > select {
     height: 40px;
     width: 300px;
 }
+
+footer {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFA33E;
+}
+  
+footer > .link a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > .link a:hover {
+    color: white;
+}
