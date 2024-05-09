@@ -70,11 +70,16 @@ main{
     padding: 20px;
     margin: 20px;
     background-color: #FBFBFB;
-    border-radius: 10%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+form {
+    text-align: left;
 }
 
 form > input {
-    text-align: center;
+    padding-left: 10px;
     height: 40px;
     width: 95%;
 }
@@ -83,6 +88,14 @@ form > select {
     height: 40px;
     width: 95%;
     padding: 10px;
+}
+
+form > button{
+    background-color: #FFA33E;
+    color: white;
+    height: 40px;
+    width: 95%;
+    margin-top: 20px;
 }
 
 #OurPackage{

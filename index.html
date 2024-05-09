@@ -27,15 +27,15 @@
                     <q>Every day buy fresh fruit and vegetables here</q>
                 </div>
                 <div class="contact">
-                    <h3 style="text-align: center;">Contact Us</h3>
+                    <h3>Contact Us</h3>
                     <p style="color: gray">sales will contact you 1 x 24 hours after we receive the data</p>
                     <form>
                         <label for="name">Your Name:</label><br>
-                        <input id="name" type="text" placeholder="First and last name">
+                        <input id="name" type="text" placeholder="First and last name" required>
                         <br>
                         <br>
                         <label for="name">Email Address:</label><br>
-                        <input id="email" type="email" placeholder="example@email.com">
+                        <input id="email" type="email" placeholder="example@email.com" required>
                         <br>
                         <p>What are you interested in?</p>
                         <select>
@@ -44,9 +44,7 @@
                             <option>Kitchen Ingredient</option>
                             <option>Kitchen Set</option>
                         </select>
-                        <br>
-                        <br>
-                        <input type="submit" value="SEND" style="background-color: #FFA33E; color:white;">
+                        <button type="button" id="send-btn" onclick="validation()">SEND</button>
                     </form>
                 </div>
             </section>
