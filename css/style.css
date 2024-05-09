@@ -50,3 +50,37 @@ header{
 main{
     overflow: auto;
 }
+
+.slide-contact {
+    display: flex;
+    background-color: #B1D056;
+}
+.slide {
+    flex:2;
+    height: 400px;
+    border: 1px solid;
+    padding: 10px;
+}
+.slide .mySlide{
+    width: 500px;
+}
+.contact {
+    flex: 1;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FBFBFB;
+    border-radius: 10%;
+}
+
+form > input {
+    text-align: center;
+    height: 40px;
+    width: 95%;
+}
+
+form > select {
+    height: 40px;
+    width: 95%;
+    padding: 10px;
+}
