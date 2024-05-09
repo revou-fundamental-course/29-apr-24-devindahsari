@@ -39,7 +39,7 @@ header{
     background-size: cover;
 }
 
-.header-text {
+#header-text {
     font-size: 20px;
     color: white;
     padding:60px;
